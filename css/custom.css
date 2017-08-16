@@ -96,3 +96,12 @@
                     margin-top: 10px;
                 }
             }
+/*topic*/
+#listtopic p {
+    margin: 5px 10px;
+    display: inline-grid;
+    background-color: #fff;
+    border: 1px solid aliceblue;
+    padding: 2em 1em;
+    box-shadow: #ccc 5px 5px 5px;
+}
