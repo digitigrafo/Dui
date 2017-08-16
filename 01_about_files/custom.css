@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Montserrat-Regular"), url("../fonts/montserrat-400.woff2") format("woff2"), url("../fonts/montserrat-400.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Montserrat-b";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Montserrat-Bold"), url("../fonts/montserrat-700.woff2") format("woff2"), url("../fonts/montserrat-700.woff") format("woff");
+}
+
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+body {
+    padding-top: 3.5rem;
+    text-align: justify;
+    font-family: "Montserrat", Elvetica;
+}
+
+h1, h2, h3, h4 {
+        font-family: "Montserrat-b", Elvetica;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-header{
+    background-color:#DA4A2D;
+}
