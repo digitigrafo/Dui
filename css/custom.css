@@ -105,3 +105,16 @@
     padding: 2em 1em;
     box-shadow: #ccc 5px 5px 5px;
 }
+#listtopic p::after {
+    content: "3 users, 4 layers, 30 posts";
+    position: absolute;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 7px 15px;
+}
+#listtopic p span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 1em 0.2em;
+    display: inline-block;
+}
