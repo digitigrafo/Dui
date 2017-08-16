@@ -29,6 +29,7 @@
             
             h2 {
                 text-align: center;
+                padding: 1em 0;
             }
             
             .center-pills {
@@ -64,8 +65,13 @@
     margin-top: 10px;
 }*/
             
+            a {
+                border: solid 1px rgba(0, 0, 0, 0);
+            }
+            
             a:hover {
                 text-decoration: underline !important;
+                border: solid 1px rgba(0, 0, 0, 0);
             }
             
             .btn.focus,
@@ -90,31 +96,42 @@
                     padding-top: 9px;
                     width: auto;
                     margin: 10px;
-                    padding-right:0px;
+                    padding-right: 0px;
                 }
                 .btn.btn-outline-success.my-2.my-sm-0 {
                     margin-top: 10px;
                 }
             }
-/*topic*/
-#listtopic p {
-    margin: 5px 10px;
-    display: inline-grid;
-    background-color: #fff;
-    border: 1px solid aliceblue;
-    padding: 2em 1em;
-    box-shadow: #ccc 5px 5px 5px;
-}
-#listtopic p::after {
-    content: "3 users, 4 layers, 30 posts";
-    position: absolute;
-    font-size: 1.2rem;
-    color: #666;
-    padding: 7px 15px;
-}
-#listtopic p span {
-    font-weight: 700;
-    font-size: 1.5em;
-    margin: 1em 0.2em;
-    display: inline-block;
-}
+            /*topic*/
+            
+            #listtopic p {
+                margin: 5px 10px;
+                display: inline-grid;
+                background-color: #fff;
+                border: 1px solid aliceblue;
+                padding: 2em 1em;
+                box-shadow: #ccc 5px 5px 5px;
+            }
+            
+            #listtopic p::after {
+                content: "3 users, 4 layers, 30 posts";
+                position: absolute;
+                font-size: 1.2rem;
+                color: #666;
+                padding: 7px 15px;
+            }
+            
+            #listtopic p span {
+                font-weight: 700;
+                font-size: 1.5em;
+                margin: 1em 0.2em;
+                display: inline-block;
+            }
+            
+            #listtopic h2::after {
+                content: " 14";
+                display: block;
+                color: #ccc;
+                font-size: 2rem;
+                margin-top: 2px;
+            }
