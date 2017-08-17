@@ -35,6 +35,7 @@
             .center-pills {
                 display: flex;
                 justify-content: center;
+                 margin-top: 1em;
             }
             
             .navbar-inverse {
@@ -142,12 +143,13 @@
                 text-align: left;
                 word-wrap: break-word;
                 margin: 3px 2px;
-                box-shadow: 5px 5px 5px #ccc;
-                /*border: 1px solid #666;*/
+                /*box-shadow: 5px 5px 5px #ccc;
+                border: 1px solid #666;*/
             }
             
             #insidetopic>table td:nth-child(3) {
                 border: solid #DA4 1px;
+                box-shadow: 5px 5px 5px #ccc;
             }
             
             #insidetopic table span {
