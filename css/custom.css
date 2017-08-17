@@ -135,3 +135,34 @@
                 font-size: 2rem;
                 margin-top: 2px;
             }
+            /*inside a topic*/
+            
+            #insidetopic table {
+                background-color: #fff;
+                text-align: left;
+                word-wrap: break-word;
+                margin: 3px 2px;
+                box-shadow: 5px 5px 5px #ccc;
+                /*border: 1px solid #666;*/
+            }
+            
+            #insidetopic>table td:nth-child(3) {
+                border: solid #DA4 1px;
+            }
+            
+            #insidetopic table span {
+                padding: 0.3rem 0.5rem 0.2rem 0.5rem;
+                display: inline-grid;
+            }
+            
+            #insidetopic .text-nowrap {
+                white-space: nowrap;
+                white-space: normal;
+                margin-right: 0px;
+            }
+            
+            #insidetopic .diffq {
+                font-size: large;
+                color: black;
+                font-weight: bold;
+            }
