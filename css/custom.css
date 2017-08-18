@@ -137,7 +137,9 @@
                 margin-top: 2px;
             }
             /*inside a topic*/
-            
+             @media (max-width: 480px) {
+                .t2nav{display:none;}
+            }
             #insidetopic table {
                 background-color: #fff;
                 text-align: left;
@@ -166,5 +168,69 @@
             #insidetopic .diffq {
                 font-size: large;
                 color: black;
-                font-weight: bold;
             }
+
+/*mmembers and map*/
+
+
+#insidetopic > table:last-of-type > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(3) {
+    border: none;
+    box-shadow: none;
+    background-color: rgba(0,0,0,0);
+}
+#insidetopic > table:last-of-type > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(3)::after {
+    content: "42";
+    color: #666;
+}
+#insidetopic > table:last-child {
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+
+#insidetopic > table:nth-child(4) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(3) {
+    border: none;
+    box-shadow: none;
+}
+.map{color:#C0C0C0;}
+.map::after {
+    content: "Redesign UI";
+    font-size: 2.2rem;
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+}
+.glyphicon-map-marker,.glyphicon-scale{font-size:2.2rem;color: #666;}
+.glyphicon-pushpin{transform: rotateY(180deg);}
+
+table .glyphicon-pushpin::before {
+    content: "\e146";
+    font-size: 2.2rem;
+    color: #666;
+}
+/*argoments*/
+
+.argp {
+    background-color: #03BF78;
+    border: 0px solid #03BF78;
+    margin: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 10px;
+}
+.textargp {
+    color: #222;
+    font-size: 1.2em;
+}
+.argn{
+    : 0px 0px 0px 5px;
+    background-color: red;
+    border: 0px solid red;
+     margin: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 10px;
+}
+/*ideas*/
+.idea{
+    font-size: large;
+    color: #000;
+    font-weight: 600;
+    font-style: inherit;
+}
